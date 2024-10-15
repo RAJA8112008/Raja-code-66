@@ -1,12 +1,10 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int i=1;
-    while(i<=50){
+int n=50;
+for(int i=1;i<=n;i++){
     cout<<i<<" ";
-    i++;
-    }
-    cout<<endl;
-    return 0;
-
+}
+cout<<endl;
+return 0;
 }
