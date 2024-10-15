@@ -1,9 +1,14 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int i=1;
-    int n=10;
-    while(i<=n){
-        cout<<i<<" ";
+    int n=200;
+    int oddsum=0;
+    for(int i=1;i<=n;i++){
+        if(i%2!=0){
+            oddsum+=i;
+
+        }
     }
+    cout<<"oddsum="<<oddsum<<endl;
+    return 0;
 }
