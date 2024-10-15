@@ -1,9 +1,12 @@
 #include<iostream>
 using namespace std;
 int main(){
-   int n=100;
-   for(int i=1;i<=n;i++){
-    cout<<i<<" "<<endl;
-   } cout<<endl;
-   return 0; 
+    int i = 1;
+    int sum = 0;
+    while(i <= 50){
+        sum += i;
+        i++;  // Increment i to avoid infinite loop
+    }
+    cout << "sum = " << sum << endl;
+    return 0;
 }
