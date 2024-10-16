@@ -1,12 +1,11 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int n=16;
+    int n=5;
     for(int i=1;i<=n;i++){
         for(int j=1;j<=n;j++){
-            cout<<j<<" ";
         }
-        cout<<endl;
+        cout<<i<<" "<<endl;
     }
     return 0;
 }
