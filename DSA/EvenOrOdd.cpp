@@ -1,13 +1,12 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int n=1000;
-   int sum=0;
-   for(int i=1;i<=n;i++){
-    sum+=i;
-   }
-   cout<<" sum="<<sum<<endl;
-   return 0;
+    int n=78;
+    for(int i=1;i<=n;i++){
+        cout<<i<<" ";
+    }
+    cout<<endl;
+    return 0;
 }
 
 
