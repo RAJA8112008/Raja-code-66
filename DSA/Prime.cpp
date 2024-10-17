@@ -6,6 +6,7 @@ int main(){
     for(int j=i;j<=n;j++){
 cout<<j<<" ";
     }
-     } cout<<endl;
+      cout<<endl;
+    }
     return 0;
 }
