@@ -1,13 +1,11 @@
 #include<iostream>
 using namespace std;
 int main(){
-int i=1;
-int sum=0;
-while(i<=50){
-    cout<<sum<<" ";
-    sum+=i;
-    i++;
-}
-cout<<endl;
-return 0;
+    int n=50;
+    int sum=0;
+    for(int i=1;i<=n;i++){
+sum+=i;
+    }
+cout<<"sum="<<sum<<endl;
+    return 0;
 }
