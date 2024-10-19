@@ -1,11 +1,12 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int n=10;
-int sum=0;
-for(int i=1;i<=n;i++){
-    sum+=i;
-}
-cout<<"sum="<<sum<<endl;
-return 0;
+   int n=10;
+   int oddsum=0;
+   for(int i=1;i<=n;i++){
+    if(i%2!=0)
+    cout<<i<<" ";
+   }
+   cout<<"oddsum="<<oddsum<<endl;
+   return 0;
 }
