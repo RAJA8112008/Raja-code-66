@@ -7,6 +7,6 @@ int main(){
     if(i%2!=0)
     cout<<i<<" ";
    }
-   cout<<"oddsum="<<oddsum<<endl;
+   cout<<endl;
    return 0;
 }
