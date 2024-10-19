@@ -1,12 +1,12 @@
 #include<iostream>
 using namespace std;
-int main(){
-int n=40;
-for(int i=1;i<=n;i++){
-    if(i%2!=0){
-        cout<<i<<" ";
+int main (){
+    int n=20;
+    for(int i=1;i<=n;i++){
+        if(i%2==0){
+            cout<<i<<" ";
+        }
+        cout<<endl;
     }
-    cout<<endl;
-}
-return 0;
+    return 0;
 }
