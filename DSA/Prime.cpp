@@ -5,9 +5,9 @@ int main(){
     int oddsum=0;
     for(int i=1;i<=n;i++){
         if(n%2!=0){
-            oddsum=i;
+            oddsum+=i;
         }
-        cout<<"oddsum="<<oddsum<<endl;
     }
+    cout<<"oddsum="<<oddsum<<endl;
     return 0;
 }
