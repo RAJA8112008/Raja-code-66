@@ -1,13 +1,13 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int n=29;
-    int oddsum=0;
+    int n=50;
+    int evensum=0;
     for(int i=1;i<=n;i++){
-        if(n%2!=0){
-            oddsum+=i;
+        if(n%2==0){
+            evensum+=i;
         }
     }
-    cout<<"oddsum="<<oddsum<<endl;
+    cout<<"evensum="<<evensum<<endl;
     return 0;
 }
