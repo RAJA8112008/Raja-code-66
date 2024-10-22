@@ -1,9 +1,12 @@
 #include<iostream>
 using namespace std;
- int main(){
-    int n=30;
+int main(){
+    int n=12;
+    int sum=0;
     for(int i=1;i<=n;i++){
-        cout<<i<<endl;
+        sum+=i;
     }
-    return 0;
- }
+        cout<<"sum="<<sum<<endl;
+        return 0;commited
+    }
+
