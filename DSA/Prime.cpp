@@ -1,13 +1,12 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int n=50;
-    int evensum=0;
+    int n=5;
     for(int i=1;i<=n;i++){
-        if(n%2==0){
-            evensum+=i;
+        for(int j=1;j<=n;j++){
+            cout<<"*"<<" ";
         }
+        cout<<endl;
     }
-    cout<<"evensum="<<evensum<<endl;
     return 0;
 }
