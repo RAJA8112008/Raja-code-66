@@ -1,14 +1,10 @@
 #include<iostream>
 using namespace std;
-int main(){
-    int  n=5;
-    int num=1;
-    for(int i=0;i<n;i++){
-        for(int j=0;j<n;j++){
-            cout<<num<<" ";
-            num++;
-        }
+ int main(){
+    int i=1;
+    while(i<=50){
+        cout<<i<<" ";
+        i++;
         cout<<endl;
-    }
-    return 0;
-}
+    }return 0;
+ }
